@@ -1,0 +1,12 @@
+.back {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  background: rgb(255,255,255);
+  background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(23,82,91,1) 100%);
+}
+.loginform {
+  width: 400px;
+  height: 100px;
+  
+}
