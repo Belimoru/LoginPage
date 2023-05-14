@@ -1,6 +1,10 @@
+@import url(https://fonts.googleapis.com/css?family=Varela);
 body{
   height: 100%;
   margin: 0px;
+  font-family: 'Varela', sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
 }
 .back {
   height: 100vh;
@@ -9,6 +13,8 @@ body{
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
+  
 }
 .loginform {
   width: 400px;
@@ -70,4 +76,8 @@ body{
   margin-left: 11%;
   margin-right: 10%;
   margin-top: 15px;
+}
+.bottom{
+  position:absolute;
+bottom:0;
 }
