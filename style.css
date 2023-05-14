@@ -12,7 +12,7 @@ body{
 }
 .loginform {
   width: 400px;
-  height: 700px;
+  height: 400px;
   background-color: rgb( 80, 109, 131);
   box-shadow: 1px 1px 10px 1px #000000, 8px 8px 0px 0px #344454, 12px 12px 10px 0px #000000;
   display: flex;
@@ -22,7 +22,7 @@ body{
 .logo{
   display: flex;
   width: 25%;
-  height: 15%;
+  height: 25%;
   border-radius: 50%;
   background-color: #344455;
   box-shadow: 0px 0px 9px 2px #344454;
@@ -63,4 +63,11 @@ body{
 }
 .forgot{
   margin-right: auto;
+}
+.add{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 11%;
+  margin-right: 10%;
+  margin-top: 15px;
 }
