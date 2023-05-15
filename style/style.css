@@ -1,5 +1,4 @@
 @import url(https://fonts.googleapis.com/css?family=Varela);
-
 body{
   height: 100%;
   margin: 0px;
@@ -98,4 +97,31 @@ bottom:0;
 a{
   text-decoration: none;
   color: white;
+}
+@media (min-device-width: 280px) and (max-device-width: 480px) {
+  .loginform{
+    height: 87lvh;
+    width: 90%;
+  }
+  .logo{
+    width: 24%;
+    height: 17%;
+    top: -6%;
+  }
+  body{
+    font-size: 24px;
+  }
+  
+  .button{
+    width: 79%;
+    height: 60px;
+    font-size: 20px;
+  }
+  .input-login,.input-password{
+    height: 60px;
+    width: 75%;
+  }
+  .add{
+    margin-left: 12%;
+  }
 }
